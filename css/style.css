@@ -11,7 +11,20 @@
 
 header {
   background-color: blue;
+  width: 50%;
+  margin: 0 auto;
   height: 200px;
+}
+
+img {
+  height: 100%;
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+main {
+  background-color: rgb(198, 189, 186);
 }
 
 .container {
@@ -29,9 +42,6 @@ header {
 section {
   height: 200px;
 }
-
-
-
 
 .zeta {
   background-color: green;
@@ -53,41 +63,85 @@ section {
   height: 100%;
 }
 
-.sinistra {
-  border-left: 2px solid black;
-  border-right: 1px solid grey;
-}
-
-.destra {
-  border-right: 2px solid black;
+.esternodestra {
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
   border-left: 1px solid grey;
 }
 
-.centro {
-  border-right: 2px solid black;
-  border-left: 2px solid black;
+.esternoalto {
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 1px solid grey;
+}
+
+.centroverticale {
+  border-right: 4px solid black;
+  border-left: 4px solid black;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   }
 
-.alto {
-  border-top: 2px solid black;
+.centrorizzontale {
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+
+}
+
+
+.altosinistra {
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+  }
+
+.altodestra {
+  border-top: 4px solid black;
+  border-right: 4px solid black;
   border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+
 }
 
-.basso {
+
+.bassosinistra {
+  border-bottom: 4px solid black;
+  border-left: 4px solid black;
   border-top: 1px solid grey;
-  border-bottom: 2px solid black;
+  border-right: 1px solid grey;
 }
 
-.esternodestra {
-  border-top: 2px solid black;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
+.bassodestra {
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-left: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.esternobasso {
+  border-top: 1px solid grey;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 .esternosinistra {
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  border-right: 1px solid grey;
+}
+
+
+.debugbordosopra {
+ border-top: none;
+}
+
+.debugbordodestra {
+ border-right: none;
 }
