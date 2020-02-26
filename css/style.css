@@ -9,22 +9,26 @@
 
 /* ------------------------------------------------------- */
 
+body {
+  border: 10px solid red;
+}
+
 header {
   background-color: blue;
-  width: 50%;
   margin: 0 auto;
   height: 200px;
 }
 
 img {
   height: 100%;
-  width: auto;
-  display: inline-block;
+  display: block;
   margin: 0 auto;
 }
 
 main {
   background-color: rgb(198, 189, 186);
+  padding: 20px;
+  border: 10px solid rgb(25, 15, 223);
 }
 
 .container {
