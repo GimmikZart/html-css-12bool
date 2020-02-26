@@ -1,0 +1,93 @@
+/* FOGLIO DI STILE */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ------------------------------------------------------- */
+
+header {
+  background-color: blue;
+  height: 200px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+  height: 200px;
+}
+
+
+
+
+.zeta {
+  background-color: green;
+}
+
+.lungo {
+  background-color: blue;
+}
+
+.elle {
+  background-color: red;
+}
+
+.quad {
+  background-color: yellow;
+}
+
+.interno {
+  height: 100%;
+}
+
+.sinistra {
+  border-left: 2px solid black;
+  border-right: 1px solid grey;
+}
+
+.destra {
+  border-right: 2px solid black;
+  border-left: 1px solid grey;
+}
+
+.centro {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  }
+
+.alto {
+  border-top: 2px solid black;
+  border-bottom: 1px solid grey;
+}
+
+.basso {
+  border-top: 1px solid grey;
+  border-bottom: 2px solid black;
+}
+
+.esternodestra {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.esternosinistra {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
